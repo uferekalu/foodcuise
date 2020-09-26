@@ -377,7 +377,12 @@ img{
   #ingredients:hover, #carb:hover,
   #melon:hover,
   #spices:hover,
-  #spices1:hover{
+  #spices1:hover,
+  .order-pic:hover,
+    #orderName:hover,
+    #orderHead:hover,
+    .order-caption:hover,
+    #orderHead1:hover, .start-shopping:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -450,6 +455,97 @@ img{
   #cucumberImg{
     margin-top: 5rem;
   }
+  #orderName{
+      margin-right: 3rem;
+  }
+  #orderHead{
+      height: 20rem;
+      background:  #9ACD32;
+  }
+  #orderHead1{
+    height: 88rem;
+    background:  #C4C4C4;
+    }
+  #orderName1{
+      margin-right: 3rem;
+  }
+  .order-caption1{
+    height: 20rem;
+    background: #9ACD32;
+  }
+  .order-caption{
+    height: 10rem;
+    background:  #C4C4C4;
+    margin-bottom: 3rem;
+  }
+  .order-pic{
+      position: absolute;
+      height: 11rem;
+      width: 11rem;
+      background: #C4C4C4;
+      border-radius: 50%;
+      margin-top: 5rem;
+      margin-left: 3rem;
+      border: .1rem white solid;
+  }
+  .order-who{
+    position: absolute;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: white;
+      margin-left: 18rem;
+      margin-top: 8rem;
+
+  }
+  .order-cap{
+    position: absolute;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: black;
+      margin-left: 18rem;
+      margin-top: 8rem;
+
+  }.order-icon{
+    position: absolute;
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-top: 8rem;
+  }
+  .order-cap1{
+    position: absolute;
+      font-size:1.4rem;
+      text-transform: uppercase;
+      color: black;
+      margin-left: 5rem;
+      margin-top: 4rem;
+
+  }.order-icon1{
+    position: absolute;
+    font-size: 1.4rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .orderhead-pos{
+      text-align: center;
+  }
+  .order-head-text{
+      margin-top: 35rem;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
+  .order-head-pa{
+      font-size: 1rem;
+  }
+  .start-shopping{
+      background: #9ACD32;
+      width: 17rem;
+      height: 3rem;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -463,6 +559,21 @@ img{
     flex: 100%;
     max-width: 100%;
     padding: 2rem;
+  }
+  #orderName{
+      flex: 100%;
+      max-width: 100%;
+      
+      margin-right: 0;
+      
+  }
+  #orderHead{
+    flex: 100%;
+    max-width: 100%;
+      margin-top: 3rem;
+  }
+  .order-caption{
+
   }
 }
 @media screen and (max-width: 922px){
