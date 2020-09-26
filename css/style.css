@@ -300,7 +300,97 @@ img{
     flex: 25%;
     padding: 20px;
 }
-
+.follow-us{
+    color: white;
+}.wazobia{
+    color: white;
+}
+.right{
+    float: right;
+}
+.login {
+    background: rgba(0, 0, 0, 0.6) url(../images/tomato.jpg);
+    height: 60rem;
+  }
+  #divLogin{
+    background-color: white; 
+    margin-top: 50px;
+    width: 1152px;
+    height: 654px;
+    margin: auto;
+    padding: 20px;
+    
+  }
+  .login-class{
+      height: 53rem;
+      background: white;
+      border-radius: 2rem;
+  }
+  .login-header{
+      text-align: center;
+      margin-top: 6rem;
+      font-size: 3rem;
+  }
+  .welcome{
+    font-size: 1rem;
+    text-align: center;
+  }
+  #password-form4-1, #email-form4-1, #name-form4-1, #phone-form4-1{
+    border-radius: 30px;
+    width: 75%; 
+    margin: auto; 
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .forgot-password{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Open Sans;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  }
+  .login-btn{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 75%; 
+    margin: auto; 
+    background: #9ACD32; 
+    border-radius: 30px;
+    color: white;
+  }
+  #btnLogin {
+    background-color: #9ACD32;
+    color: white;
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  }
+  .continue-google{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 75%; 
+    margin: auto; 
+    background: black; 
+    border-radius: 30px;
+  }
+  #continueGoogle {
+    background: black; 
+    color: white;
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  }
+  .have-no-account{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   
@@ -315,6 +405,7 @@ img{
     .col-3{
         flex: 100%;
         max-width: 100%;
+        
     }
     .navbar{
         padding: 2rem;
@@ -342,7 +433,12 @@ img{
     }
     .footer{
         background: #9ACD32;
-        height: 70rem;
+        height: 130rem;
+    }
+    .help{
+        text-align: left;
+        color: white;
+        
     }
 }
 @media only screen and (min-width: 769px){
