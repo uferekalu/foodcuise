@@ -382,7 +382,7 @@ img{
     #orderName:hover,
     #orderHead:hover,
     .order-caption:hover,
-    #orderHead1:hover, .start-shopping:hover{
+    #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -462,6 +462,10 @@ img{
       height: 20rem;
       background:  #9ACD32;
   }
+  #orderHeadDetail{
+    height: 20rem;
+    background:  #C4C4C4;
+}
   #orderHead1{
     height: 88rem;
     background:  #C4C4C4;
@@ -472,6 +476,10 @@ img{
   .order-caption1{
     height: 20rem;
     background: #9ACD32;
+  }
+  .order-captionDetail{
+    height: 20rem;
+    background: #C4C4C4;
   }
   .order-caption{
     height: 10rem;
@@ -505,7 +513,15 @@ img{
       margin-left: 18rem;
       margin-top: 8rem;
 
-  }.order-icon{
+  } 
+  .order-cap-text{
+    position: absolute;
+    font-size: 1rem;
+    color: black;
+    margin-left: 10rem;
+    margin-top: 11rem;
+  }
+  .order-icon{
     position: absolute;
     font-size: 2rem;
     margin-left: 10rem;
@@ -546,6 +562,22 @@ img{
       font-size: 1.2rem;
       font-weight: bold;
   }
+  .my-detail-name{
+      font-size: 1.5rem;
+  }
+  .input-name-email{
+    height: 3rem;
+    width: 43rem;
+    padding-left:1rem;
+  }
+  .input-name{
+      height: 3rem;
+      width: 15rem;
+      padding-left:1rem;
+  }
+  .last-name, .email-detail, .number, .password-detail{
+      margin-top: 5rem;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -567,13 +599,19 @@ img{
       margin-right: 0;
       
   }
-  #orderHead{
+  #orderHead, #orderHeadDetail{
     flex: 100%;
     max-width: 100%;
       margin-top: 3rem;
   }
-  .order-caption{
-
+  .my-detail-name{
+      margin-top: -5rem;
+  }
+  .input-name{
+      width: 100%;
+  }
+  .input-name-email{
+      width: 100%;
   }
 }
 @media screen and (max-width: 922px){
