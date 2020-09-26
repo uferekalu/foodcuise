@@ -382,7 +382,8 @@ img{
     #orderName:hover,
     #orderHead:hover,
     .order-caption:hover,
-    #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover, textarea:hover{
+    #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover, textarea:hover,
+    #giftCard:hover, .buy-gift:hover, .add-gift:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -470,6 +471,12 @@ img{
     height: 88rem;
     background:  #C4C4C4;
     }
+#giftCard{
+    height: 30rem;
+    background:  #C4C4C4;
+    
+    }
+
   #orderName1{
       margin-right: 3rem;
   }
@@ -541,7 +548,7 @@ img{
     margin-left: 3rem;
     margin-top: 4rem;
   }
-  .orderhead-pos{
+  .orderhead-pos, .giftcard-pos{
       text-align: center;
   }
   .order-head-text{
@@ -550,6 +557,12 @@ img{
       font-size: 1.2rem;
       font-weight: bold;
   }
+  .gift-card-text{
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
   .order-head-pa{
       font-size: 1rem;
   }
@@ -562,6 +575,26 @@ img{
       font-size: 1.2rem;
       font-weight: bold;
   }
+  .add-gift{
+      margin-top: 1.5rem;
+    background: #9ACD32;
+    width: 17rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.buy-gift{
+    margin-top: 1.5rem;
+    background:black;
+    width: 17rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
   .my-detail-name{
       font-size: 1.5rem;
   }
