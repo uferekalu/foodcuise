@@ -141,6 +141,15 @@ img{
     margin-right: -1rem;
         
 }
+.label{
+    position: relative;
+    margin-top: -4rem;
+    margin-left: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .percentage1{
     width: 5rem;
     height: 5rem;
@@ -150,8 +159,6 @@ img{
     position: relative;
     float: right;
     margin-right: -1rem;
-    
-    
 }
 .img{
     margin-top: -4rem;
@@ -196,6 +203,7 @@ img{
     color: black;
 }
 #fruit{
+        margin: auto;
         background: #9ACD32;
         height: 100%;
 }
@@ -215,4 +223,133 @@ img{
     background: #9ACD32;
     height: 100%;
     width: 100%;
+}
+.meat{
+    padding: 0;
+}
+.meat-div{
+    margin: auto;
+    width: 98rem;
+    height: 30rem;
+    background: #9ACD32;
+}
+.meat-text{
+    padding-left: 6rem;
+    padding-top: 6rem;
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+}
+.black-box{
+    background: black;
+    height: 15rem;
+}
+.black-box-text{
+    color: white;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+.footer{
+    background: #9ACD32;
+    height: 50rem;
+}
+.cuisine-logo{
+    margin-top: 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.cuisine-writeup{
+    margin-top: 3rem;
+    color: white;
+    font-size: 1rem;
+}
+.google-apple{
+    margin-top: 2rem;
+    padding-right: 2rem;
+    background: black;
+    height: 6rem;
+    border-radius: 1rem;
+    color: white;
+    
+}
+.google-apple::hover{
+    border: 1rem solid blue;
+}
+.google{
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top:.5rem;
+}
+.google-play{
+    margin-left: 4rem;
+    margin-top:.5rem;
+}
+.cities{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Four equal columns */
+.col-3{
+    flex: 25%;
+    padding: 20px;
+}
+
+/* Media queries */
+@media screen and (max-width: 600px){
+  
+}
+@media screen and (max-width: 922px){
+   
+}
+@media only screen and (max-width: 480px){
+    
+}
+@media only screen and (min-width: 481px){
+    .col-3{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .navbar{
+        padding: 2rem;
+    }
+    .col-4{
+        width: 100%;
+        padding: 0;
+    }
+    .cuisine-logo, .cuisine-writeup{
+        padding-left: 3rem;
+    }
+    .google-apple{
+        width: 100%;
+        margin: 0 3rem;
+        margin-top: 2rem;
+    }
+    .google{
+        font-size: 1rem;
+        margin-left: 10rem;
+        margin-top:-2rem
+    }   
+    .google-play{
+        margin-left: 10rem;
+        margin-top:.5rem;
+    }
+    .footer{
+        background: #9ACD32;
+        height: 70rem;
+    }
+}
+@media only screen and (min-width: 769px){
+    .col-3{
+        flex: 25%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    
 }
