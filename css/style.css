@@ -309,6 +309,10 @@ img{
     float: right;
 }
 .login {
+    background: rgba(0, 0, 0, 0.6) url(../images/achara.jpg);
+    height: 60rem;
+  }
+  .signup {
     background: rgba(0, 0, 0, 0.6) url(../images/tomato.jpg);
     height: 60rem;
   }
@@ -336,6 +340,7 @@ img{
     text-align: center;
   }
   #password-form4-1, #email-form4-1, #name-form4-1, #phone-form4-1{
+      padding-left: 1.7rem;
     border-radius: 30px;
     width: 75%; 
     margin: auto; 
@@ -360,13 +365,16 @@ img{
     border-radius: 30px;
     color: white;
   }
-  #btnLogin {
+  #btnLogin, #btnSignup {
     background-color: #9ACD32;
     color: white;
     font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
+  }
+  .login-btn:hover, .continue-google:hover, #password-form4-1:hover, #email-form4-1:hover, #name-form4-1:hover, #phone-form4-1:hover{
+    border: .1rem solid blue;
   }
   .continue-google{
     margin-bottom: 30px;
@@ -376,6 +384,7 @@ img{
     background: black; 
     border-radius: 30px;
   }
+ 
   #continueGoogle {
     background: black; 
     color: white;
