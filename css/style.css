@@ -382,7 +382,7 @@ img{
     #orderName:hover,
     #orderHead:hover,
     .order-caption:hover,
-    #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover{
+    #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover, textarea:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -578,6 +578,16 @@ img{
   .last-name, .email-detail, .number, .password-detail{
       margin-top: 5rem;
   }
+  .address1{
+      margin-top: 2rem;
+  }.address2{
+      margin-top:5rem;
+  }.state-of-residence{
+      margin-top: 6rem;
+  }
+  textarea{
+      padding: 2rem;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -612,6 +622,16 @@ img{
   }
   .input-name-email{
       width: 100%;
+  }
+  .address1{
+      margin-top: 6rem;
+  }.address2{
+      margin-top: 10rem;
+  }
+  textarea{
+      width: 100%;
+  }.state-of-residence{
+      margin-top: 10rem;
   }
 }
 @media screen and (max-width: 922px){
