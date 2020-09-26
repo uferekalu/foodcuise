@@ -373,7 +373,11 @@ img{
   font-weight: bold;
   font-size: 14px;
   }
-  .login-btn:hover, .continue-google:hover, #password-form4-1:hover, #email-form4-1:hover, #name-form4-1:hover, #phone-form4-1:hover{
+  .login-btn:hover, .continue-google:hover, #password-form4-1:hover, #email-form4-1:hover, #name-form4-1:hover, #phone-form4-1:hover,
+  #ingredients:hover, #carb:hover,
+  #melon:hover,
+  #spices:hover,
+  #spices1:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -400,9 +404,66 @@ img{
   font-size: 14px;
   text-align: center;
   }
+  #searchIcon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 23px;
+  }
+  #ingredients{
+    margin-top: 20px;
+    border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 60px;
+  padding-left:50px;
+  }
+  #carb, #melon, #spices, #spices1{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+    text-align: center;
+    font-size: small;
+    margin-right: 10px;
+    width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 60px;
+  }
+  .all-results{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top:10px;
+  }
+  .okro{
+      margin-top: 8rem;
+  }
+  .coconut{
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+  }
+  #arrivalImageCoconut{
+      margin-top: 2rem;
+  }
+  #cucumberImg{
+    margin-top: 5rem;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
-  
+  .min-okro{
+      margin-top: 4rem;
+  }
+  .col-3{
+      margin-top: 4rem;
+  }
+  .col-6{
+    padding-top: 4rem;
+    flex: 100%;
+    max-width: 100%;
+    padding: 2rem;
+  }
 }
 @media screen and (max-width: 922px){
    
@@ -416,6 +477,7 @@ img{
         max-width: 100%;
         
     }
+  
     .navbar{
         padding: 2rem;
     }
@@ -447,8 +509,8 @@ img{
     .help{
         text-align: left;
         color: white;
-        
     }
+    
 }
 @media only screen and (min-width: 769px){
     .col-3{
