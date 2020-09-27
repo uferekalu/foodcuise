@@ -383,11 +383,14 @@ img{
     #orderHead:hover,
     .order-caption:hover,
     #orderHead1:hover, .start-shopping:hover,#orderHeadDetail:hover, .input-name:hover, .input-name-email:hover, textarea:hover,
-    #giftCard:hover, .buy-gift:hover, .add-gift:hover{
+    #giftCard:hover, .buy-gift:hover, .add-gift:hover,
+    #trackOrderNow:hover,
+    .order-location:hover,
+    #trackAddress:hover, .cancel-order:hover{
     border: .1rem solid blue;
   }
   .continue-google{
-    margin-bottom: 30px;
+    margin-bottom: 30px;        
     text-align: center;
     width: 75%; 
     margin: auto; 
@@ -476,6 +479,10 @@ img{
     background:  #C4C4C4;
     
     }
+#trackOrderNow{
+    height: 88rem;
+    background:  #C4C4C4;
+}
 
   #orderName1{
       margin-right: 3rem;
@@ -526,6 +533,13 @@ img{
     font-size: 1rem;
     color: black;
     margin-left: 10rem;
+    margin-top: 11rem;
+  }
+  .order-cap-track{
+    position: absolute;
+    font-size: 1rem;
+    color: black;
+    margin-left: 15rem;
     margin-top: 11rem;
   }
   .order-icon{
@@ -595,6 +609,20 @@ img{
     font-size: 1.2rem;
     font-weight: bold;
 }
+.order-button{
+    text-align: center;
+}
+.cancel-order{
+    margin-top: 2rem;
+    background:black;
+    width: 17rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
   .my-detail-name{
       font-size: 1.5rem;
   }
@@ -620,6 +648,39 @@ img{
   }
   textarea{
       padding: 2rem;
+  }
+  .order-location{
+      width: 80%;
+      height: 32rem;
+      background: #9ACD32;
+      position: absolute;
+      margin-top: 8rem;
+      margin: 7%;
+            
+  }
+  .track-address{
+      margin-top: 40rem;
+      margin-left: 7%;
+  }
+  #trackAddress{
+      margin-left: 7%;
+  }
+  .gift-card-question{
+      height: 15rem;
+      background: #C4C4C4;
+      margin-bottom: 2rem;
+  }.gift-card-question{
+      text-align: left;
+  }
+  .gift-question{
+      margin-top: 3rem;
+      margin-left: 3rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+  }
+  .gift-answer{
+    margin-left: 3rem;
+    font-size: 1.2rem;
   }
 /* Media queries */
 @media screen and (max-width: 600px){
@@ -665,10 +726,19 @@ img{
       width: 100%;
   }.state-of-residence{
       margin-top: 10rem;
+  } .order-location{
+      width: 80%;
+      margin-left: 3.5%;
+  }
+  #trackAddress{
+      margin: auto;
   }
 }
 @media screen and (max-width: 922px){
-   
+    #trackAddress{
+        margin: auto;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 480px){
     
