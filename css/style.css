@@ -744,6 +744,9 @@ img{
     font-weight: bold;
     margin-top: 5rem;
   }
+  .category-row{
+      margin-top: 5rem;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -807,6 +810,7 @@ img{
   .input-card-cvv{
       margin-left: 7rem;
   }
+
 }
 @media screen and (max-width: 922px){
     #trackAddress{
@@ -817,6 +821,7 @@ img{
         width: 100%;
         margin-left: .5rem;
     }
+
 }
 @media only screen and (max-width: 480px){
     
