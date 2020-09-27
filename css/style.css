@@ -386,7 +386,12 @@ img{
     #giftCard:hover, .buy-gift:hover, .add-gift:hover,
     #trackOrderNow:hover,
     .order-location:hover,
-    #trackAddress:hover, .cancel-order:hover{
+    #trackAddress:hover, .cancel-order:hover, .gift-card-question:hover,
+    .payment-means:hover,
+    .input-payment-number:hover,
+    .input-card-year:hover,
+    .input-card-cvv:hover,
+    .save-this-card:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -527,7 +532,14 @@ img{
       margin-left: 18rem;
       margin-top: 8rem;
 
-  } 
+  }.payment-cap{
+    position: absolute;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 13rem;
+    margin-top: 8rem;
+  }
   .order-cap-text{
     position: absolute;
     font-size: 1rem;
@@ -630,6 +642,28 @@ img{
     height: 3rem;
     width: 43rem;
     padding-left:1rem;
+  }.input-payment-number{
+    height: 5rem;
+    width: 48rem;
+    padding-left:1rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  .input-card-year{
+    height: 5rem;
+    width: 26rem;
+    padding-left:1rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }.input-card-cvv{
+    height: 5rem;
+    width: 21rem;
+    padding-left:1rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
   }
   .input-name{
       height: 3rem;
@@ -682,6 +716,34 @@ img{
     margin-left: 3rem;
     font-size: 1.2rem;
   }
+  .payment-row{
+      margin-top: 5rem;
+  }
+  .payment-means{
+      height: 6rem;
+      background:white;
+      margin: auto;
+  }
+  .verve{
+      margin-top: 1rem;
+  }
+  .card-detail-text{
+      text-align: center;
+      margin-top: 5rem;
+  }
+  .card-save-button{
+      text-align: center;
+  }
+  .save-this-card{
+    background: #9ACD32;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5rem;
+  }
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -733,11 +795,27 @@ img{
   #trackAddress{
       margin: auto;
   }
+  .payment-means img{
+    flex: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0;
+  }
+  .input-payment-number, .input-card-year, .input-card-cvv{
+      width: 75%;
+  }
+  .input-card-cvv{
+      margin-left: 7rem;
+  }
 }
 @media screen and (max-width: 922px){
     #trackAddress{
         margin: auto;
         width: 100%;
+    }
+    .input-payment-number, .input-card-year, .input-card-cvv{
+        width: 100%;
+        margin-left: .5rem;
     }
 }
 @media only screen and (max-width: 480px){
