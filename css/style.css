@@ -391,7 +391,13 @@ img{
     .input-payment-number:hover,
     .input-card-year:hover,
     .input-card-cvv:hover,
-    .save-this-card:hover{
+    .save-this-card:hover,
+    .checkout-div:hover,
+    .checkout-image-veg:hover,
+    .checkout-subtotal:hover,
+    .checkout-place-order:hover,
+    .check-out-placeorder:hover,
+    .check-out-add-item:hover{
     border: .1rem solid blue;
   }
   .continue-google{
@@ -747,6 +753,92 @@ img{
   .category-row{
       margin-top: 5rem;
   }
+  .checkout-div{
+      height: 20rem;
+      background: #C4C4C4;
+      margin-top: 1rem;
+      padding: 1rem;
+  }
+  .checkout-image{
+      height: 18rem;
+      width: 18rem;
+  }
+  .checkout-details{
+      margin-left: 20rem;
+      margin-top: -18rem;
+  }
+.checkout-item-head{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.checkout-item-detail{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.checkout-item-amount{
+    margin-top: 2rem;
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #9ACD32;
+}
+#checkoutItemIcon{
+    float: right;
+    margin-top: 1rem;
+}
+#checkoutItemIcon1{
+    float: right;
+    margin-top: -2rem;
+}
+.checkout-subtotal{
+    margin-right: 2rem;
+}
+.checkout-subtotal, .checkout-place-order{
+    height: 20rem;
+    background: #C4C4C4;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.checkout-sub-total1{
+ float: right;
+ margin-top: -2rem;
+}
+.checkout-sub-delivery1{
+ float: right;
+ margin-top: -2rem;
+}
+.checkout-sub-total1{
+  float: right;
+  margin-top: -2rem;   
+}
+.checkout-space{
+    margin-bottom: 3rem;
+}.checkout-overall-amount, .cct{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.checkout-button-order{
+    text-align: center;
+}
+.check-out-placeorder{
+    margin-top: 2rem;
+    background: #9ACD32;
+    width: 100%;
+    height: 5rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}.check-out-add-item{
+    margin-top: 3rem;
+    background: white;
+    width: 100%;
+    height: 5rem;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -810,7 +902,10 @@ img{
   .input-card-cvv{
       margin-left: 7rem;
   }
-
+  .checkout-subtotal{
+      width: 100%;
+  }
+ 
 }
 @media screen and (max-width: 922px){
     #trackAddress{
@@ -821,7 +916,12 @@ img{
         width: 100%;
         margin-left: .5rem;
     }
-
+    .checkout-subtotal, .checkout-place-order{
+        flex: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
 }
 @media only screen and (max-width: 480px){
     
@@ -865,7 +965,9 @@ img{
         text-align: left;
         color: white;
     }
-    
+    .checkout-subtotal{
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 769px){
     .col-3{
