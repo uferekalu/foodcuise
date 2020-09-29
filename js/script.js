@@ -83,4 +83,4 @@ $(document).ready(function(){
             $('.item3 p').animateCss('fadeIn');
         });
     });
-    
+

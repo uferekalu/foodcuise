@@ -244,11 +244,20 @@ img{
     background: black;
     height: 15rem;
 }
-.black-box-text{
+.black-box-content{
     color: white;
-    justify-content: center;
-    margin-left: 6rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
+}
+.black-box-icon{
+    font-size: 1.5rem;
+}
+.black-box-text{
+    margin-left: 3rem;
+    margin-top: -2rem;
+}
+.black-box-text-info{
+    font-size: 1rem;
+    
 }
 .footer{
     background: #9ACD32;
@@ -399,6 +408,11 @@ img{
     .check-out-placeorder:hover,
     .check-out-add-item:hover{
     border: .1rem solid blue;
+  }
+  .order:active{
+    border-right-style: solid;
+    border-right-color: #9ACD32;
+    border-right-width: 7px;
   }
   .continue-google{
     margin-bottom: 30px;        
@@ -838,7 +852,90 @@ img{
     font-size: 1.2rem;
     font-weight: bold;
 }
-
+.cat-information{
+    margin-top: 3rem;
+}
+.cat-img{
+    flex: 100%;
+    width: 100%;
+}
+.fruit-information{
+    width: 50%;
+    background: #9ACD32;
+    color: white;
+    text-align: center;
+    
+}.fruit-information-content{
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3rem;
+}
+.fruit-background{
+    height: 50%;
+}
+.fruit-image-information{
+    width: 50%;
+    float: right;
+}
+.img-orange{
+    width: 50%;
+}
+.img-melon{
+    width: 50%;
+    float: right;
+}
+.cuisine-logo-identity{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.cuisine-footer-information{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
+}
+.cuisine-footer-googleplay{
+    margin-top: 2rem;
+    width:20%;
+    height: 20%;
+}
+.cuisine-footer-appstore{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width:18%;
+    height: 18%;
+}.cuisine-footer-cities-terms{
+    margin-top: 2rem;
+    padding: 0;
+}.cuisine-footer-cities-terms-info{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+}
+.footer-follow-us{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+} .footer-social-icon{
+    margin-top: 1rem;
+}.fa-instagram, .fa-facebook, .fa-twitter{
+    font-size: 3rem;
+    color: white;
+    margin-right: 2rem;
+}
+.footer-cuisine-foods-ltd{
+    margin-top: 3rem;
+    color: white;
+}
+.wazobia-2020-terms{
+    padding: 0;
+    color: white;
+    margin-top: 3rem;
+}
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -905,7 +1002,18 @@ img{
   .checkout-subtotal{
       width: 100%;
   }
- 
+  #fruitImage{
+      width: 100%;
+  }
+ .cuisine-footer-cities-terms-info{
+    flex: 100%;
+    max-width: 100%;
+ }
+ ..wazobia-2020-terms{
+    padding: 0;
+    color: white;
+    margin-top: 3rem;
+}
 }
 @media screen and (max-width: 922px){
     #trackAddress{
@@ -921,6 +1029,26 @@ img{
         max-width: 100%;
         margin: auto;
         margin-top: 2rem;
+    }
+    .wazobia-2020-terms{
+        flex: 25%;
+        max-width: 100%;
+        margin: auto;
+        padding: 0;
+        color: white;
+        margin-top: 3rem;
+        font-size: .5rem;
+    }
+    .cuisine2020{
+        font-size: 1.3rem;
+    }
+    .cuisine-footer-cities-terms{
+        flex: 10%;
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+    .cuisine-footer-cities-terms-info{
+        font-size: 1.3rem;
     }
 }
 @media only screen and (max-width: 480px){
@@ -959,7 +1087,7 @@ img{
     }
     .footer{
         background: #9ACD32;
-        height: 130rem;
+        height: 90rem;
     }
     .help{
         text-align: left;
@@ -968,6 +1096,7 @@ img{
     .checkout-subtotal{
         width: 100%;
     }
+    
 }
 @media only screen and (min-width: 769px){
     .col-3{
