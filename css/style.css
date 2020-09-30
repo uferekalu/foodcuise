@@ -936,6 +936,91 @@ img{
     color: white;
     margin-top: 3rem;
 }
+.product-detail-header{
+    width: 50%;
+    float: left;
+    margin-left: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.product-detail-information{
+    width: 50%;
+    float: right;
+    margin-top: -11rem;   
+    font-size: 1.2rem;
+}
+.product-detail-color{
+    margin-top: 3rem;
+}
+.diced-button{
+    margin-right: 0;
+    font-size: 1.5rem;
+    width: 25%;
+    background: #9ACD32;
+    border: none;
+    color: white;
+}
+.regular-button{
+    font-size: 1.5rem;
+    width: 30%;
+    border: none;
+    background: gray;
+    color: white;
+}
+.product-detail-reading{
+    width: 5rem;
+    height: 1rem;
+    background: #9ACD32;
+    border: none;
+}
+.product-detail-reading1{
+    width: 9rem;
+    height: 1rem;
+    background: gray;
+    border: none;
+}
+.product-detail-price{
+    font-size: 1.2rem;
+}
+.product-detail-price code{
+    color: #9ACD32;
+    font-size: 1.2rem;
+}
+.product-detail-explanation{
+    width: 100%;
+    float: left;
+    margin-left: 2rem;
+}
+.product-detail-explanation{
+    text-align: justify;
+}
+.product-detail-explanation-wordings{
+    font-size: 1.5rem;
+}
+.product-detail-explanation-wordings-button{
+    float: left;
+    margin-left: 2rem;
+    background: #9ACD32;
+    width: 30%;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+.product-add-to-basket{
+    margin-top: .5rem;
+    color: white;
+}
+.product-detail-row{
+    margin-top: 2rem;
+    margin-left: -2rem;
+    
+}
+.product-detail-similar-products{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{
@@ -1009,13 +1094,40 @@ img{
     flex: 100%;
     max-width: 100%;
  }
- ..wazobia-2020-terms{
+ .wazobia-2020-terms{
     padding: 0;
     color: white;
     margin-top: 3rem;
 }
+.product-detail-image-notation{
+    flex: 100%;
+    max-width: 100%;
+}
+.product-detail-header-col{
+    flex: 100%;
+    max-width: 100%;
+}
 }
 @media screen and (max-width: 922px){
+    .product-detail-image-notation{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .product-detail-header-col{
+        flex: 100%;
+        max-width: 100%;
+        padding-right: 5rem;
+    }
+    .product-detail-similar-products{
+        padding-left: 3rem;
+    }
+    .product-detail-row{
+        
+        margin-top: 3rem;
+    }
+    .product-detail-row div{
+        margin-top: .5rem;
+    }
     #trackAddress{
         margin: auto;
         width: 100%;
@@ -1050,9 +1162,16 @@ img{
     .cuisine-footer-cities-terms-info{
         font-size: 1.3rem;
     }
+    
 }
 @media only screen and (max-width: 480px){
-    
+    .product-detail-image-notation{
+        width: 100%;
+    }
+    .product-detail-row{
+        margin: auto;
+        margin-top: 3rem;
+    }
 }
 @media only screen and (min-width: 481px){
     .col-3{
@@ -1101,6 +1220,10 @@ img{
 @media only screen and (min-width: 769px){
     .col-3{
         flex: 25%;
+    }
+    .product-detail-row{
+        
+        margin-top: 3rem;
     }
 }
 @media only screen and (max-width: 1280px){
