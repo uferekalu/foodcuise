@@ -114,6 +114,13 @@ img{
     border-radius: 2rem;
     text-transform: uppercase;
 }
+.button-shop:hover, .carbs-button:hover{
+    background-color: #ce587b;
+    
+}
+.button-shop:hover a, .carbs-button:hover a{
+    color: white;
+}
 /* arrivals  */
 .arrivals, .best-sellers, .best-heading, .popular{
     padding: 0;
