@@ -1066,6 +1066,21 @@ img{
     color: #9ACD32;
     margin-right: 1.5rem;
 }
+.upArrow{
+    position:fixed;
+    right:10px;
+    bottom:20px;
+    height:40px;
+    width:40px;
+    display:none
+}
+.show {
+    display: inline-flex;
+}
+     
+.hide {
+  display:none;
+}
 /* Media queries */
 @media screen and (max-width: 600px){
   .min-okro{

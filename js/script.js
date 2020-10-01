@@ -119,3 +119,23 @@ $(document).ready(function(){
           doAnimations($animatingElems);
         });
       })(jQuery);
+
+
+let scrollToTopBtn=document.querySelector('#top');
+
+      //Scroll to top button
+
+let displayScrollBtn =()=>{
+  let y=window.scrollY;
+    if (y > 200) {scrollToTopBtn.classList.replace("hide","show")}
+    else{scrollToTopBtn.classList.replace("show","hide");}
+}
+window.addEventListener('scroll', displayScrollBtn);
+
+scrollToTopBtn.addEventListener('click',function(){
+window.scrollTo({
+  top:0,
+  left:0,
+  behavior:'smooth'
+})
+});
